@@ -6,7 +6,7 @@
 }
 
 body{
-  font-family: 'thicccboi';
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #fff;
   color: #333;
 }
@@ -419,6 +419,9 @@ body{
   text-align: center;
   font-size: 15px;
   font-weight: 500;
+}
+.ico p{
+  text-align: left;
 }
 }
 
