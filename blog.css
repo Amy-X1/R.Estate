@@ -345,7 +345,7 @@ body{
 
 .hero-head h2{font-size: 40px;}
 
-.post-small{
+.post-small ul{
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
@@ -368,7 +368,12 @@ body{
   cursor: pointer;
 }
 
-.post-small li.active{
+/* .post-small li.active{
+  background: #e74c3c;
+  color: #ffffff;
+} */
+
+.post-head ul li.active{
   background: #e74c3c;
   color: #ffffff;
 }
