@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>R.Estate Blog</title>
   <link rel="stylesheet" href="blog.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <!-- navbar section  -->
+  <!-- navbar section -->
   <header class="nav" id="size">
     <h2 class="logo">R.<span>Estate</span></h2>
     <input type="checkbox" id="checkbox">
@@ -22,12 +17,12 @@
       <li><a href="./properties.html">Properties</a></li>
       <li><a href="./blog.html" style="color: #ef4c3c;">Blog</a></li>
       <li><a href="./contact.html">Contact</a></li>
-      <li class="small"><a href="#">Upload a Property</a></li>
+      <li class="small"><a href="./pop.html">Upload a Property</a></li>
     </ul>
     <div class="nav-con">
       <ul class="nav-icons">
-        <li><ion-icon name="search-outline"></ion-icon></li>
-        <li><a href="#">Upload a Property</a></li>
+        <li class="na"><ion-icon name="search-outline"></ion-icon></li>
+        <li><a href="./pop.html">Upload a Property</a></li>
       </ul>
       <label for="checkbox">
         <ion-icon name="menu-outline" class="check"></ion-icon>
@@ -35,60 +30,180 @@
     </div>
   </header>
 
-  <!-- article section  -->
-  <div class="article" id="size">
-    <div class="article-head">
-      <h2>Article & Resources</h2>
-      <div class="search-input">
-        <ion-icon name="search-outline"></ion-icon>
-        <input type="text" placeholder="Search for properties">
+  <div class="ino1">
+        <input type="email" placeholder="enter email address" required>
+        <a href="#">Search</a>
+      </div>
+<!-- hero section  -->
+  <div class="hero">
+    <div class="hero-head" id="size">
+      <h2>Articles&Resources</h2>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco<br> laboris nisi ut aliquip ex ea commodo consequat</p>
+    </div>
+
+    <div class="hero-blo" id="size">
+      <div class="blo-ima">
+          <img src="./Images/pot.jpg" alt="">
+        <div class="blo-text">
+          <h3>Here's how to decorate your new home from scratch</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. sed do eiusmod tempor</p>
+          <hr>
+          <div class="ro">
+            <p>Articles</p>
+            <p>January 2,2026</p>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="boo">
+        <div class="bu">
+          <div class="bui">
+            <img src="./Images/bed.jpg" alt="">
+          </div>
+          <div class="bu-text">
+            <h3>Home buying basics:How many bedrooms and bathrooms?</h3>
+            <hr style="margin-top: 20px;">
+            <div class="ro">
+              <p>News</p>
+              <p>January 4,2026</p>
+            </div>
+          </div>
+        </div>
+        <div class="bu">
+          <div class="bui">
+            <img src="./Images/chair.jpg" alt="">
+          </div>
+          <div class="bu-text">
+            <h3>Home buying basics:How many bedrooms and bathrooms?</h3>
+            <hr style="margin-top: 20px;">
+            <div class="ro">
+              <p>News</p>
+              <p>January 4,2026</p>
+            </div>
+          </div>
+        </div>
+        <div class="bu">
+          <div class="bui">
+            <img src="./Images/broom.jpg" alt="">
+          </div>
+          <div class="bu-text">
+            <h3>Home buying basics:How many bedrooms and bathrooms?</h3>
+            <hr style="margin-top: 20px;">
+            <div class="ro">
+              <p>News</p>
+              <p>January 4,2026</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  <!-- post section  -->
+   <div class="post">
+    <div class="post-head" id="size">
+      <h2>Latest Post</h2>
+        <ul class="post-small">
+          <li class="lis active" data-filter="all">All</li>
+          <li class="lis" data-filter="article">Articles</li>
+          <li class="lis" data-filter="news">News</li>
+          <li class="lis" data-filter="res">Resources</li>
+      </div>
+    </div>
+    <div class="boo1">
+        <div class="bu" data-item="article">
+          <div class="bui">
+            <img src="./Images/bed.jpg" alt="">
+          </div>
+          <div class="bu-text">
+            <h3>Home buying basics:How many bedrooms and bathrooms?</h3>
+            <hr style="margin-top: 20px;">
+            <div class="ro">
+              <p>News</p>
+              <p>January 4,2026</p>
+            </div>
+          </div>
+        </div>
+        <div class="bu" data-item="res">
+          <div class="bui">
+            <img src="./Images/pot.jpg" alt="">
+          </div>
+          <div class="bu-text">
+            <h3>Home buying basics:How many bedrooms and bathrooms?</h3>
+            <hr style="margin-top: 20px;">
+            <div class="ro">
+              <p>News</p>
+              <p>January 4,2026</p>
+            </div>
+          </div>
+        </div>
+        <div class="bu" data-item="news">
+          <div class="bui">
+            <img src="./Images/chair.jpg" alt="">
+          </div>
+          <div class="bu-text">
+            <h3>Home buying basics:How many bedrooms and bathrooms?</h3>
+            <hr style="margin-top: 20px;">
+            <div class="ro">
+              <p>News</p>
+              <p>January 4,2026</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bu" data-item="res">
+          <div class="bui">
+            <img src="./Images/bed.jpg" alt="">
+          </div>
+          <div class="bu-text">
+            <h3>Home buying basics:How many bedrooms and bathrooms?</h3>
+            <hr style="margin-top: 20px;">
+            <div class="ro">
+              <p>News</p>
+              <p>January 4,2026</p>
+            </div>
+          </div>
+        </div>
+        <div class="bu" data-item="news">
+          <div class="bui">
+            <img src="./Images/broom.jpg" alt="">
+          </div>
+          <div class="bu-text">
+            <h3>Home buying basics:How many bedrooms and bathrooms?</h3>
+            <hr style="margin-top: 20px;">
+            <div class="ro">
+              <p>News</p>
+              <p>January 4,2026</p>
+            </div>
+          </div>
+        </div>
+        <div class="bu" data-item="article">
+          <div class="bui">
+            <img src="./Images/chair.jpg" alt="">
+          </div>
+          <div class="bu-text">
+            <h3>Home buying basics:How many bedrooms and bathrooms?</h3>
+            <hr style="margin-top: 20px;">
+            <div class="ro">
+              <p>News</p>
+              <p>January 4,2026</p>
+            </div>
+          </div>
+        </div>
+    </div>  
+
+   <!-- search section  -->
+   <div class="searc" id="size">
+    <div class="sear-text">
+      <h4>Subscribe to our newsletter</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit et sed <br>lectus vulputate nisi donec sed sit volutpat id.</p>
+      <div class="ino">
+        <input type="email" placeholder="enter email address" required>
         <a href="#">Search</a>
       </div>
     </div>
-    <div class="article-set">
-      <div class="article-card">
-        <img src="./Images/house 3.jpeg" alt="">
-        <div class="articletext">
-          <h3>Here's how to decorate your new home from scratch</h3>
-          <p>Learn how to give you home that new look it deserves, <br> and feel comfortable</p>
-        </div>
-      </div>
-      <div class="three-card">
-        <div class="card" style="height: 100%;">
-          <div>
-            <img src="./Images/interior 1.jpeg" alt="">
-          </div>
-          <div class="card-text">
-            <h4>Home buying basics: How many<br> bedrooms and bathrooms?</h4>
-            <a href="#">Read more <span>↗</span></a>
-          </div>
-        </div>
-
-        <div class="card" style="height: 100%;">
-          <div>
-            <img src="./Images/interior 2.jpeg" alt="">
-          </div>
-          <div class="card-text">
-            <h4>Home buying basics: How many<br> bedrooms and bathrooms?</h4>
-            <a href="#">Read more <span>↗</span></a>
-          </div>
-          <!-- style="width: 36%; height: 30vh;" -->
-        </div>
-
-        <div class="card" style="height: 100%;">
-          <div>
-            <img src="./Images/interior 1.jpeg" alt="">
-          </div>
-          <div class="card-text">
-            <h4>Home buying basics: How many<br> bedrooms and bathrooms?</h4>
-            <a href="#">Read more <span>↗</span></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- footer section -->
+   </div>
+   
+   <!-- footer section -->
   <footer>
     <div class="footer-content">
       <div class="footer-text">
@@ -115,8 +230,10 @@
     </div>
   </footer>
 
+
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</body>
 
+  <script src="blog.js"></script>
+</body>
 </html>

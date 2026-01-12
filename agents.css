@@ -25,8 +25,6 @@ body{
   justify-content: space-between;
   align-items: center;
   padding: 1.2rem 9rem;
-  /* background-color: #fff; */
-  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
 }
 
 .nav .logo{
@@ -36,9 +34,7 @@ body{
   text-decoration: none;
 }
 
-.nav .logo span{
-  color: #e74c3c;
-}
+.nav .logo span{color: #e74c3c;}
 
 .nav ul{
   list-style: none;
@@ -54,18 +50,13 @@ body{
   transition: color 0.3s;
 }
 
-.nav ul li a:hover{
-  color: #e74c3c;
-}
+.nav ul li a:hover{color: #e74c3c;}
 
-.active{
-  color: #e74c3c;
-}
+.active{color: #e74c3c;}
 
 .nav .nav-icons{
   display: flex;
   align-items: center;
-  /* gap: 3rem; */
 }
 
 .nav .nav-icons ion-icon{
@@ -73,9 +64,7 @@ body{
   margin-right: -1rem;
 }
 
-.nav .nav-icons ion-icon:hover{
-  color: #e74c3c;
-}
+.nav .nav-icons ion-icon:hover{color: #e74c3c;}
 
 .nav .nav-icons a{
   margin-right: -0.9rem;
@@ -86,7 +75,6 @@ body{
   border-radius: 15px;
   font-weight: 500;
   width: 100%;
-  /* transition: background-color 0.3s; */
 }
 
 .nav .nav-icons a:hover{
@@ -106,7 +94,6 @@ body{
   align-items: center;
   text-align: center;
   width: 100%;
-  /* transition: background-color 0.3s; */
 }
 
 .nav .small a:hover{
@@ -120,9 +107,7 @@ body{
   font-size: 35px;
 }
 
-#checkbox{
-  display: none;
-}
+#checkbox{display: none;}
 
 .nav-con{
   display: flex;
@@ -133,9 +118,8 @@ body{
 
 /* media query */
 @media (max-width: 1000px){
-  .nav{
-    padding: 2rem 1.6rem;
-  }
+  .nav{padding: 2rem 1.6rem;}
+
   #checkbox:checked ~ .nav-links{
     position: absolute;
     display: block;
@@ -170,37 +154,22 @@ body{
 }
 
 @media (max-width: 755px){
-  .nav{
-    padding: 1rem 2rem;
-  }
-  .nav .nav-icons ion-icon{
-    margin-right: -7rem;
-  }
-  .nav .small a{
-    display: block;
-  }
-  .nav-con a{
-    display: none;
-  }
+  .nav{padding: 1rem 2rem;}
+
+  .nav .nav-icons ion-icon{margin-right: -7rem;}
+
+  .nav .small a{display: block;}
+
+  .nav-con a{display: none;}
 }
 @media (max-width: 600px){
-  #checkbox:checked ~ .nav-icons{
-    height: 400px;
-  }
+  #checkbox:checked ~ .nav-icons{height: 400px;}
 }
 
 /* agent section  */
 .agents{
   background-color: #fff;
   padding: 100px 60px;
-  /* margin: auto; */
-  /* width: 100%;
-  min-height: 100%;
-  
-  flex-wrap: wrap; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* gap: 40px; */
 }
 
 .agents-head{
@@ -210,9 +179,7 @@ body{
   align-items: center;
 }
 
-.agents-head h2{
-  font-size: 40px;
-}
+.agents-head h2{font-size: 40px;}
 
 .agents-head span{
   font-size: 20px;
@@ -224,7 +191,6 @@ body{
   min-height: 100%;
   display: flex;
   flex-direction: row;
-  /* flex-wrap: wrap; */
   justify-content: center;
   align-items: center;
   gap: 40px;
@@ -238,7 +204,6 @@ body{
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.3s, box-shadow 0.3s;
   overflow: hidden;
-  /* z-index: 1; */
 }
 
 .agent-card:hover{
@@ -252,16 +217,6 @@ body{
   object-fit: contain;
   transition: all 0.3s ease;
 }
-
-/* .top{
-  position: absolute;
-  top: 320px;
-  left: 400px;
-  background-color: #e74c3c;
-  color: #fff;
-  padding: 12px 18px;
-  border-radius: 22px;
-} */
 
 .agent-card:hover img{
   transform: scale(1.05);
@@ -286,14 +241,12 @@ body{
   padding-bottom: 17px;
 }
 
-
 .ico{
   display: flex;
   flex-direction: row;
   gap: 8px;
   align-items: center;
   margin-top: 20px;
-  /* justify-content: center; */
 }
 
 .ico ion-icon{
@@ -310,19 +263,14 @@ body{
 
 @media(max-width: 1000px){
   .argents{
-  /* width: 100%;
-  min-height: 100%; */
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
   justify-content: center;
   align-items: center;
   gap: 40px;
-  /* margin-top: 70px; */
 }
-.agent-card{
-  max-width: 700px;
-}
+.agent-card{max-width: 700px;}
+
 .agents-head{
   display: flex;
   flex-direction: column;
@@ -330,21 +278,9 @@ body{
   align-items: center;
   gap: 20px;
 }
-.agents-head h2{
-  text-align: center;
-}
+.agents-head h2{text-align: center;}
 
-.agents-head span{
-  text-align: center;
-}
-}
-
-/* @media(max-width: 640px){
-  .top{
-    position: absolute;
-    top: 20px;
-    left: 340px;
-  }
+.agents-head span{text-align: center;}
 }
 
 @media (max-width: 545px){
@@ -361,8 +297,71 @@ body{
     top: 20px;
     left: 220px;
   }
-} */
+  .ico p{text-align: left;}
+}
 
+.ino1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+  gap: 10px;
+  background-color: #fff;
+  border-radius: 22px;
+  padding: 20px 25px;
+  /* width: 100%; */
+  max-width: 550px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease-in-out;
+}
+
+.ino1:hover{border: 1px solid #e74c3c;}
+
+.ino1 input{
+  padding: 15px 35px 15px 5px;
+  border: none;
+  width: 100%;
+}
+
+.ino1 input::placeholder{
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.ino1 a{
+  text-decoration: none;
+  color: #f5f5f5;
+  padding: 14px 16px;
+  font-weight: 500;
+  border-radius: 12px;
+  align-items: center;
+  background-color: #e74c3c;
+  transition: transform 0.5s ease-in-out;
+}
+
+.ino1 a:hover{transform: scale(10px);}
+
+.ino1{
+  display: none;
+}
+
+.ino1.active{
+  display: flex;
+}
+@media(max-width: 800px){
+  .ino1{
+    flex-direction: column;
+    gap: 15px;
+  }
+  .ino1 input{width: 100%;}
+
+  .ino1 a{
+    width: 100%;
+    text-align: center;
+  }
+}
 /* footer section */
 .footer-content{
   display: flex;
@@ -386,7 +385,6 @@ body{
 .footer-text h3{
   font-size: 1.5rem;
   color: #333;
-  /* margin-bottom: 0.5rem; */
 }
 
 .footer-content p{
@@ -415,7 +413,6 @@ body{
 }
 
 .footer-other{
-  /* text-align: center; */
   align-items: center;
   justify-content: center;
   padding: 20px;
@@ -445,9 +442,8 @@ body{
   font-size: 1rem;
 }
 
-.footer-other input:hover{
-  border: 1px solid #e74c3c;
-}
+.footer-other input:hover{border: 1px solid #e74c3c;}
+
 .sub-in{
   display: flex;
   flex-direction: row;
@@ -462,9 +458,7 @@ body{
   max-width: 320px;
 }
 
-.sub-in:hover{
-  border: 1px solid #e74c3c;
-}
+.sub-in:hover{border: 1px solid #e74c3c;}
 
 .sub-in ion-icon{
   font-size: 28px;
@@ -477,9 +471,7 @@ body{
   background-color: #ccc;
 }
 
-.sub-in input:hover{
-  border: none;
-}
+.sub-in input:hover{border: none;}
 
 .sub-in input::placeholder{
   color: #666;
@@ -513,4 +505,9 @@ body{
     align-items: flex-start;
     margin-left: -20px;
   }
+  .sub-in{
+    width: 275px;
+    gap: 0px; 
+  }
+  .sub-in input{padding: 15px 0px 15px 5px;}
 }

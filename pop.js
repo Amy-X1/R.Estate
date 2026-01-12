@@ -1,13 +1,11 @@
-
-
 let list = document.querySelectorAll('.list');
-let cardtype = document.querySelectorAll('.questCard');
+let cardtype = document.querySelectorAll('.hero');
   for (let k = 0; k < cardtype.length; k++) 
       {
       cardtype[k].classList.remove('active');
       cardtype[k].classList.add('hide');
 
-      if (cardtype[k].getAttribute('data-item') == 'hb') {
+      if (cardtype[k].getAttribute('data-item') == 'fb') {
         cardtype[k].classList.remove('hide');
         cardtype[k].classList.add('active');
       }
@@ -35,32 +33,32 @@ for (let i = 0; i < list.length; i++) {
   });
 }
 
-const headers = document.querySelectorAll('.questCard')
+// const burger = document.querySelector('.burger');
+// const navLinks = document.querySelector('.nav-links');
+// const burgerIcon = document.querySelector('.burger ion-icon');
 
-headers.forEach(header =>{
-  header.addEventListener('click',()=>{
-    const item = header.parentElement;
-    item.classList.toggle('active')
-  });
-});
+// burger.addEventListener('click', () => {
+//   navLinks.classList.toggle('show');
+//   if(navLinks.classList.contains('show')){
+//     burgerIcon.setAttribute('name','close-outline');
+//   } else{
+//     burgerIcon.setAttribute('name','menu-outline');
+//   }
+// })
 
+
+// function toggleMenu() {
+//    const navLinks = document.querySelector('.nav-links');
+//   const burgerIcon = document.querySelector('.check');
+
+//     navLinks.classList.toggle('show');
+//   if(navLinks.classList.contains('show')){
+//     burgerIcon.setAttribute('name','close-outline');
+//   } else{
+//     burgerIcon.setAttribute('name','menu-outline');
+//   }
+// }
 
 document.querySelector('.na').addEventListener('click', function(){
   document.querySelector('.ino1').classList.toggle('active');
 });
-
-document.querySelector('.iew').addEventListener('click', function(){
-  const text = document.querySelector('.text-to-show');
-  text.style.display = text.style.display === 'none' ? 'inline' : 'none';
-});
-
-// document.querySelectorAll('.iew').forEach((icon, index) => {
-//   icon.addEventListener('click', function(){
-//   const texts = document.querySelectorAll('.text-to-show');
-//  texts[index].style.display = texts[index].style.display === 'none' ? 'inline' : 'none';
-// });
-// });
-
-// document.querySelector('.iew').addEventListener('click', function(){
-//   document.querySelector('text-to-show').style.display = 'inline'
-// });

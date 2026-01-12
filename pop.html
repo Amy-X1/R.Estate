@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>R.Estate</title>
+  <link rel="stylesheet" href="pop.css">
+</head>
+<body>
+   <!-- navbar section -->
+  <header class="nav" id="size">
+    <h2 class="logo">R.<span>Estate</span></h2>
+    <input type="checkbox" id="checkbox">
+    <ul class="nav-links">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./properties.html">Properties</a></li>
+      <li><a href="./blog.html">Blog</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+      <li class="small"><a href="./pop.html">Upload a Property</a></li>
+    </ul>
+    <div class="nav-con">
+      <ul class="nav-icons">
+        <li class="na"><ion-icon name="search-outline"></ion-icon></li>
+        <li><a href="./pop.html">Upload a Property</a></li>
+      </ul>
+      <label for="checkbox">
+        <ion-icon name="menu-outline" class="check"></ion-icon>
+      </label>
+    </div>
+  </header>
+  <div class="ino1">
+        <input type="email" placeholder="enter email address" required>
+        <a href="#">Search</a>
+      </div>
+  <!-- con section  -->
+   <div class="con">
+    <div class="con-text">
+      <h2>Post a Property for sale or rent</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit eleifend nullam eros,<br> nulla erat magnis inceptos aptent hac odi</p>
+    </div>
+    <div class="tags">
+          <ul>
+            <li class="list active" data-filter="fb">Free publication</li>
+            <li class="list" data-filter="fs">Featured publication</li>
+          </ul>
+      </div>
+   </div>
+
+   <!-- form section -->
+    <div class="hero" id="size" data-item="fb">
+    <div class="hero-text">
+      <div class="texte">
+        <ion-icon name="call-outline"></ion-icon>
+        <h1>1. Client information</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit lobortis arcu enim</p>
+      </div>
+
+      <div class="texte1">
+        <ion-icon name="call-outline"></ion-icon>
+        <h1>2.Property information</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit lobortis arcu enim</p>
+      </div>
+    </div>
+
+    <div class="form-container">
+      <form action="#">
+        <div class="form-gc">
+          <div class="name">
+            <h4>Full name</h4>
+            <input type="text" placeholder="Mattew Jones" required>
+          </div>
+          <div class="email">
+            <h4>Email address</h4>
+            <input type="email" placeholder="example@email.com" required>
+          </div>
+        </div>
+        <div class="form-gc" style="margin-top: 32px;">
+          <div class="phone">
+            <h4>Phone</h4>
+            <input type="tel" placeholder="+234 704 189 5742" required>
+          </div>
+          </div>
+          <hr>
+          <div class="form-g" style="margin-top: 32px;">
+            <div class="phone">
+              <h4>Listing title</h4>
+              <input type="tel" placeholder="property listing title" required>
+            </div>
+            <div class="form-c" style="margin-top: 32px;">
+              <div class="phone">
+                  <h4>Property type</h4>               
+                <div class="location">
+                  <div class="loca">
+                    <h5>Select</h5>
+                  </div>
+                  <ion-icon name="chevron-down-outline"></ion-icon>
+                  <ul class="drop">
+                    <li>Rent</li>
+                    <li>Sale</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="phone">
+                  <h4>Listing type</h4>    
+                <div class="location">
+                  <div class="loca">
+                    <h5>Select</h5>
+                  </div>                
+                  <ion-icon name="chevron-down-outline"></ion-icon>
+                  <ul class="drop">
+                    <li>Houses</li>
+                    <li>Apartment</li>
+                    <li>Real Estate</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-gc" style="margin-top: 32px;">
+          <div class="name">
+            <h4>Location</h4>
+            <input type="text" placeholder="ex.Los Angeles" required>
+          </div>
+          <div class="email">
+            <h4>Address</h4>
+            <input type="text" placeholder="8076 Herrick Ave.." required>
+          </div>
+        </div>
+        <div class="form-gc" style="margin-top: 32px;">
+          <div class="name">
+            <h4>Listing Price</h4>
+            <input type="text" placeholder="ex.$10,000" required>
+          </div>
+          <div class="email">
+            <h4>Bedrooms</h4>
+            <input type="text" placeholder="Select" required>
+          </div>
+        </div>
+        <div class="form-gc" style="margin-top: 32px;">
+          <div class="name">
+            <h4>Bathrooms</h4>
+            <input type="text" placeholder="Select" required>
+          </div>
+          <div class="email">
+            <h4>Parking lots</h4>
+            <input type="text" placeholder="Select" required>
+          </div>
+        </div>
+        <div class="form-gc" style="margin-top: 32px;">
+          <div class="name">
+            <h4>Construction sqft</h4>
+            <input type="text" placeholder="ex.4978 sqft" required>
+          </div>
+          <div class="email">
+            <h4>Land sqft</h4>
+            <input type="text" placeholder="4x.5087 sqft" required>
+          </div>
+        </div>
+        <div class="message" style="margin-top: 32px;">
+          <h4>Listing short description</h4>
+          <textarea rows="5" placeholder="Please enter up to 240 characters." required></textarea>
+        </div>
+
+        <div class="message" style="margin-top: 32px;">
+          <h4>Listing short description</h4>
+          <textarea rows="6" placeholder="Please enter up to 2000 characters." required></textarea>
+        </div>
+
+          <div class="form-g" style="margin-top: 32px;">
+            <h4  style="color: #333;font-size: 18px; font-weight: 500;">Construction sqft</h4>
+            <div class="checks">
+              <div class="checkes-in">
+                <input type="checkbox">
+                <label>Garden</label>
+              </div>
+              <div class="checkes-in">
+                <input type="checkbox">
+                <label>Security cameras</label>
+              </div>
+              <div class="checkes-in">
+                <input type="checkbox">
+                <label>Laundry</label>
+              </div>
+              <div class="checkes-in">
+                <input type="checkbox">
+                <label>Internet</label>
+              </div>
+              <div class="checkes-in">
+                <input type="checkbox">
+                <label>Pool</label>
+              </div>
+              <div class="checkes-in">
+                <input type="checkbox">
+                <label>Video surveillance</label>
+              </div>
+              <div class="checkes-in">
+                <input type="checkbox">
+                <label>Jacuzzi</label>
+              </div>
+              <div class="checkes-in">
+                <input type="checkbox">
+                <label>Elevator</label>
+              </div>
+              <div class="checkes-in">
+                <input type="checkbox">
+                <label>Vigilance</label>
+              </div>
+              <div class="checkes-in">
+                <input type="checkbox">
+                <label>Dish washer</label>
+              </div>
+              <div class="checkes-in">
+                <input type="checkbox">
+                <label>Solar panel</label>
+              </div>
+              <div class="checkes-in">
+                <input type="checkbox">
+                <label>Garage</label>
+              </div>             
+            </div>
+          
+            <div class="phone" style="margin-top: 32px;">
+              <h4>Listing images</h4>
+              <p>Please share a Google Drive or Imgur link of your listing images</p>
+              <input type="text" placeholder="ex.drive.google.com/.." required style="margin-top: 10px;">
+            </div>
+       
+    </div>
+   </div>
+   </div>
+   <div class="button-area">
+          <button type="submit" class="submit-btn">Submit for approval</button>
+        </div>
+      </form>
+  
+    <!-- <div class="hero" id="size" data-item="fs">
+    <div class="hero-text">
+      <div class="texte">
+        <ion-icon name="call-outline"></ion-icon>
+        <h1>1. Client information</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit lobortis arcu enim</p>
+      </div>
+
+      <div class="texte">
+        <ion-icon name="call-outline"></ion-icon>
+        <h1>2. Property information</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit lobortis arcu enim</p>
+      </div>
+
+      <div class="texte2">
+        <ion-icon name="call-outline"></ion-icon>
+        <h1>3. Client information</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit lobortis arcu enim</p>
+      </div>
+    </div>
+
+    <div class="form-container">
+      <form action="#">
+        <div class="form-gc">
+          <div class="name">
+            <h4>Full name</h4>
+            <input type="text" placeholder="Mattew Jones" required>
+          </div>
+          <div class="email">
+            <h4>Email address</h4>
+            <input type="email" placeholder="example@email.com" required>
+          </div>
+        </div>
+        <div class="form-gc" style="margin-top: 32px;">
+          <div class="phone">
+            <h4>Phone</h4>
+            <input type="tel" placeholder="+234 704 189 5742" required>
+          </div>
+          </div>
+          <hr>
+          <div class="form-g" style="margin-top: 32px;">
+            <div class="phone">
+              <h4>Listing title</h4>
+              <input type="tel" placeholder="property listing title" required>
+            </div>
+            <div class="form-c" style="margin-top: 32px;">
+              <div class="phone">
+                  <h4>Property type</h4>               
+                <div class="location">
+                  <div class="loca">
+                    <h5>Select</h5>
+                  </div>
+                  <ion-icon name="chevron-down-outline"></ion-icon>
+                  <ul class="drop">
+                    <li>Rent</li>
+                    <li>Sale</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="phone">
+                  <h4>Listing type</h4>    
+                <div class="location">
+                  <div class="loca">
+                    <h5>Select</h5>
+                  </div>                
+                  <ion-icon name="chevron-down-outline"></ion-icon>
+                  <ul class="drop">
+                    <li>Houses</li>
+                    <li>Apartment</li>
+                    <li>Real Estate</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-gc" style="margin-top: 32px;">
+          <div class="name">
+            <h4>Location</h4>
+            <input type="text" placeholder="ex.Los Angeles" required>
+          </div>
+          <div class="email">
+            <h4>Address</h4>
+            <input type="text" placeholder="8076 Herrick Ave.." required>
+          </div>
+        </div>
+        <div class="form-gc" style="margin-top: 32px;">
+          <div class="name">
+            <h4>Listing Price</h4>
+            <input type="text" placeholder="ex.$10,000" required>
+          </div>
+          <div class="email">
+            <h4>Bedrooms</h4>
+            <input type="text" placeholder="Select" required>
+          </div>
+        </div>
+        <div class="form-gc" style="margin-top: 32px;">
+          <div class="name">
+            <h4>Bathrooms</h4>
+            <input type="text" placeholder="Select" required>
+          </div>
+          <div class="email">
+            <h4>Parking lots</h4>
+            <input type="text" placeholder="Select" required>
+          </div>
+        </div>
+        <div class="form-gc" style="margin-top: 32px;">
+          <div class="name">
+            <h4>Construction sqft</h4>
+            <input type="text" placeholder="ex.4978 sqft" required>
+          </div>
+          <div class="email">
+            <h4>Land sqft</h4>
+            <input type="text" placeholder="4x.5087 sqft" required>
+          </div>
+        </div>
+        <div class="message" style="margin-top: 32px;">
+          <h4>Listing short description</h4>
+          <textarea rows="5" placeholder="Please enter up to 240 characters." required></textarea>
+        </div>
+
+        <div class="message" style="margin-top: 32px;">
+          <h4>Listing short description</h4>
+          <textarea rows="6" placeholder="Please enter up to 2000 characters." required></textarea>
+        </div>
+
+          <div class="form-g" style="margin-top: 32px;">
+            <h4  style="color: #333;font-size: 18px; font-weight: 500;">Construction sqft</h4>
+            <div class="checks">
+              <div class="checkes-in">
+                <input type="checkbox">
+                <label>Garden</label>
+              </div>
+              <div class="checkes-in">
+                <input type="checkbox">
+                <label>Security cameras</label>
+              </div>
+              <div class="checkes-in">
+                <input type="checkbox">
+                <label>Laundry</label>
+              </div>
+              <div class="checkes-in">
+                <input type="checkbox">
+                <label>Internet</label>
+              </div>
+              <div class="checkes-in">
+                <input type="checkbox">
+                <label>Pool</label>
+              </div>
+              <div class="checkes-in">
+                <input type="checkbox">
+                <label>Video surveillance</label>
+              </div>
+              <div class="checkes-in">
+                <input type="checkbox">
+                <label>Jacuzzi</label>
+              </div>
+              <div class="checkes-in">
+                <input type="checkbox">
+                <label>Elevator</label>
+              </div>
+              <div class="checkes-in">
+                <input type="checkbox">
+                <label>Vigilance</label>
+              </div>
+              <div class="checkes-in">
+                <input type="checkbox">
+                <label>Dish washer</label>
+              </div>
+              <div class="checkes-in">
+                <input type="checkbox">
+                <label>Solar panel</label>
+              </div>
+              <div class="checkes-in">
+                <input type="checkbox">
+                <label>Garage</label>
+              </div>             
+            </div>
+          
+            <div class="phone" style="margin-top: 32px;">
+              <h4>Listing images</h4>
+              <p>Please share a Google Drive or Imgur link of your listing images</p>
+              <input type="text" placeholder="ex.drive.google.com/.." required style="margin-top: 10px;">
+            </div>
+       
+    </div>
+   </div>
+   </div>
+   <div class="button-area">
+          <button type="submit" class="submit-btn">Submit for approval</button>
+        </div> 
+      </form>-->
+  
+  <!-- footer section  -->
+  <footer>
+     <div class="footer-content">
+      <div class="footer-text">
+       <h2>R.<span style="color: #ef4c3c;">Estate</span></h2>
+       <p>We are committed to helping you find your dream home.<br> Contact us today to get started on your journey to homeownership.</p>
+     <div class="footer-icons">
+        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+     </div>
+     </div>
+     <div class="footer-other">
+      <h4>Subscribe to our newsletter</h4>
+      <div class="subscribe">
+        <div class="sub-in">
+          <input type="email" placeholder="Enter your email" required>
+          <ion-icon name="mail-outline"></ion-icon>
+        </div>
+        <a href="#" class="sub-btn">Subscribe</a>
+     </div>
+     </div>
+      </div>
+  </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <script src="pop.js"></script>
+</body>
+</html>
