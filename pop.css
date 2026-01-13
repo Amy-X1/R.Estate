@@ -101,7 +101,7 @@ body{
   display: none;
   align-items: center;
   text-align: center;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .nav .small a:hover{

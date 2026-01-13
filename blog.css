@@ -72,7 +72,7 @@ body{
   padding: 12px 15px;
   border-radius: 15px;
   font-weight: 500;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .nav .nav-icons a:hover{
